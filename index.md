@@ -1,7 +1,7 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "dc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
-venue: "King's Colege London"        # brief name of host site without address (e.g., "Euphoric State University")
+venue: "King's College London"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "Guy's campus"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "uk"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
@@ -519,6 +519,7 @@ and our administrator may contact you if we need any extra information.</h4>
   </div>
 </div> {% comment %} End of 'editor' section. {% endcomment %}
 
+{% comment %}
 <div id="python"> {% comment %} Start of 'Python' section. Remove the third paragraph if
            the workshop will teach Python using something other than
            the Jupyter notebook.
@@ -603,6 +604,7 @@ and our administrator may contact you if we need any extra information.</h4>
       </ol>
     </div>
   </div>
+  {% endcomment %}
 {% comment %}
   <p>
   Once you are done installing the software listed above,
